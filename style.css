@@ -3,7 +3,7 @@
 }
 
 body {
-    background-image: url("/img1.jpg");
+    background-image: url("/image.jpg");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -11,44 +11,46 @@ body {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: left;
+    
     font-family: 'Poppins', sans-serif;
     padding: 0;
     margin: 0;
-    color: white;
+    color:black
 
 }
 
 .countEl {
-    padding: 20px 30px;
-    margin: 10px;
-    border: 1px solid white;
-    border-radius: 5px;
+    margin: 20px;
+    
 }
 
 .countEl span {
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: bold;
     line-height: 1;
 }
 
 h1 {
-    font-size: 3rem;
+    font-size: 2rem;
     text-transform: uppercase;
     font-weight: 100;
-    color: burlywood;
-    padding-left: 100px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+    /* padding-left: 100px; */
 }
 
 .big-text {
     text-align: center;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight: 800;
     margin: 0;
     padding: 0;
-    color: burlywood;
+    
 }
 
 .countdown-container {
     display: flex;
-    padding-left: 100px;
+    flex-wrap: wrap;
+     justify-content: center;
 }
